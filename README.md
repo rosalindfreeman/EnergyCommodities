@@ -51,15 +51,11 @@ In other words, this repository currently covers the data download, charting, an
 Then run these commands.
 
 
-### 3. Run the project
+### Run the project
 
 ```powershell
 python main.py
-```
-
-## What You Should See
-
-When the script runs successfully, it should:
+``
 
 1. Download historical daily prices for oil and gas.
 2. Print the first few rows of the dataset in the terminal.
