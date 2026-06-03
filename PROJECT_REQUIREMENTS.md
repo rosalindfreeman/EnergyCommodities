@@ -1,8 +1,6 @@
 # Project Requirements
 
-This document captures the features described in the original project brief that are not yet implemented in the current codebase.
-
-The current repository already supports:
+The current repository supports:
 
 - downloading historical price data from Yahoo Finance
 - plotting price history
@@ -13,7 +11,7 @@ The items below describe the additional work needed to complete the broader proj
 
 ## Goal
 
-Build a Python application for analyzing historical energy commodity prices and producing useful insights through statistics, visualization, and forecasting.
+Analysing historical energy commodity prices and producing useful insights through statistics, visualization, and forecasting.
 
 The finished project should help a user:
 
@@ -28,13 +26,6 @@ The finished project should help a user:
 ### 1. Volatility Analysis
 
 The system should calculate and present volatility metrics for each selected commodity.
-
-Minimum expected behaviour:
-
-- compute daily percentage returns from the price series
-- calculate rolling volatility over configurable windows such as 7, 30, and 90 days
-- display volatility results in both numeric and chart form
-- allow comparison of volatility across commodities
 
 Suggested outputs:
 
@@ -66,8 +57,6 @@ Minimum expected behaviour:
 - support at least one forecasting model such as ARIMA
 - optionally support a simpler regression-based baseline for comparison
 - generate a forecast for a configurable number of future days, with 30 days as the default
-- show forecast values in tabular form
-- plot historical data together with forecasted values
 
 Suggested outputs:
 
@@ -193,13 +182,6 @@ To keep the project manageable, a sensible implementation order would be:
 - add 30-day forecast output and chart
 - add forecast configuration options
 
-### Phase 4: Polish
-
-- improve charts and reporting
-- refine documentation
-- add example commands and sample workflows
-
-## Definition of Done
 
 This project can be considered complete against the original brief when a user can:
 
